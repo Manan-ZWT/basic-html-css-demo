@@ -243,7 +243,7 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-  background-color: black;
+  background-image: linear-gradient(to top right, #dbbb07, #e9141b);
   color: white;
 }
 
