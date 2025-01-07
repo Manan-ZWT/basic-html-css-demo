@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>La Masia Football Academy</title>
+  </head>
+  <body>
+    <!--HEADER SECTION-->
+    <header>
+      <div>
+        <!--LOGO-->
+        <img src="assets/images/fcb2.png" alt="Logo" />
+
+        <!--NAV BAR-->
+        <nav>
+          <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about_us"><li>About us</li></a>
+            <a href="#shop"><li>Shop</li></a>
+            <a href="#teams"><li>Teams</li></a>
+            <a href="#membership"><li>Membership</li></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--MAIN SECTION-->
+    <main>
+      <div id="covercatalan">
+        <!--WELCOME MESSAGE IN H1 TAG-->
+        <h1>Welcome to our Club!!</h1>
+
+        <!--WELCOME MESSAGE IN P TAG-->
+        <p>
+          We are thrilled to have you join our community of passionate football
+          enthusiasts. Our club is dedicated to fostering a love for the game,
+          promoting teamwork, and achieving excellence on and off the field.
+          Whether you're a player, coach, or supporter, we believe that every
+          member plays a vital role in our success. Let's work together to
+          create unforgettable memories and reach new heights. Welcome aboard!
+        </p>
+      </div>
+
+      <!--ARTICLE-->
+      <article>
+        <!--SECTION TAGS-->
+        <section id="covermodules">
+          <h2>Our Mission</h2>
+          <p>
+            Our mission is to inspire and nurture a pasfion for football in our
+            community. We aim to provide a supportive environment where players
+            of all ages and skill levels can develop their talents and enjoy the
+            beautiful game.
+          </p>
+        </section>
+        <section id="covermodules">
+          <h2>Our Values</h2>
+          <p>
+            We believe in the power of teamwork, dedication, and sportsmanship.
+            Our club is committed to fostering a culture of respect, integrity,
+            and excellence both on and off the field.
+          </p>
+        </section>
+        <section id="covermodules">
+          <h2>Join Us</h2>
+          <p>
+            Whether you're a seasoned player or new to the sport, we welcome you
+            to join our football family. Together, we can achieve great things
+            and create lasting memories.
+          </p>
+        </section>
+      </article>
+
+      <h2 style="text-align: center">La Masia Talents</h2>
+      <div id="listsmodule">
+
+        <div>
+          <!--UNORDERED LIST-->
+          <h3>La Masia veterans</h3>
+          <ul>
+            <li>Messi</li>
+            <li>Xavi</li>
+            <li>Iniesta</li>
+            <li>Pique</li>
+            <li>Suarez</li>
+          </ul>
+        </div>
+
+        <div>
+          <!--ORDERED LIST-->
+          <h3>La Masia New Kids</h3>
+          <ol>
+            <li>Yamal</li>
+            <li>Cubarsi</li>
+            <li>Casado</li>
+            <li>Balde</li>
+            <li>Bernal</li>
+          </ol>
+        </div>
+      </div>
+
+      <br />
+      <!--TABLE-->
+      <h2 style="text-align: center">Our Highest Paid Players</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Salary</th>
+        </tr>
+        <tr>
+          <td>Messi</td>
+          <td>Fasle 9 (CAM)</td>
+          <td>550 Million euros</td>
+        </tr>
+        <tr>
+          <td>Cubarsi</td>
+          <td>Centre back</td>
+          <td>5 Million euros</td>
+        </tr>
+        <tr>
+          <td>Bernal</td>
+          <td>CDM</td>
+          <td>25 Million euros</td>
+        </tr>
+        <tr>
+          <td>Xavi</td>
+          <td>CAM</td>
+          <td>250 Million euros</td>
+        </tr>
+        <tr>
+          <td>Suarez</td>
+          <td>Striker</td>
+          <td>120 Million euros</td>
+        </tr>
+      </table>
+
+      <div id="imgvideomodule">
+        <div>
+          <h3>Our Academy "La Masia"</h3>
+          <!--IMAGE-->
+          <img src="assets/images/La_masia.jpg" alt="La masia" />
+        </div>
+
+        <div>
+          <h3>Our Official Stadium</h3>
+          <!--VIDEO-->
+          <video src="assets/images/Sample.mp4" autoplay controls loop></video>
+        </div>
+
+      </div>
+      <h2 style="text-align: center">Our Official Anthem!!!Click to play</h2>
+      <!--AUDIO-->
+      <audio src="assets/images/Official-Anthem.wav" noplay controls loop></audio>
+      <br />
+
+      <!--SIMPLE FORM-->
+      <form>
+        <h2 style="text-align: center;">Register yourself to join La Masia!!</h3>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <br />
+        <input type="number" name="age" id="age" placeholder="Enter your age" />
+        <br />
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Enter some description about yourself"
+        ></textarea>
+        <br />
+        <select name="role" id="role">
+          <option value="" selected disabled>Select a role</option>
+          <option value="striker">Striker</option>
+          <option value="rw">Right wing</option>
+          <option value="lw">Left wing</option>
+          <option value="cam">Centre attacking midfielder(CAM)</option>
+          <option value="cm">Centre midfielder(CM)</option>
+          <option value="cdm">Centre defending midfielder(CDM)</option>
+          <option value="cb">Centre back</option>
+          <option value="rb">Right back</option>
+          <option value="lb">Left back</option>
+          <option value="gk">Goal keeper</option>
+        </select>
+        <br />
+        <input type="button" value="Submit" />
+        <br />
+      </form>
+    </main>
+    <br />
+
+    <!--FOOTER-->
+    <footer>
+      <div>
+        <h2>Contact details</h2>
+        <p>Phone:-+91 7538702178</p>
+        <p>Email:-myacademy@lamasia.com</p>
+        <p>Instagram:-_LaMasia_youth_acadamey</p>
+      </div>
+      <div>
+        <h2>Copyright</h2>
+        <p>© 2025 La Masia. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
