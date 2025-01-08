@@ -110,24 +110,31 @@ article {
 /* TABLE */
 table {
   width: 95%;
-  border-radius: 15px;
-  padding: 2%;
   margin: 2%;
-  background-color: #04162785;
 }
 
 th {
-  background-color: #79070b;
+  background-color: #032149;
+  border-radius: 20px;
+  border-bottom: 4px solid white;
+  border-top: 1px solid white;
+  font-weight: bolder;
 }
 
-table,
 td,
-th,
 tr {
-  border: 2px solid white;
+  border: 1px solid white;
   border-collapse: collapse;
   text-align: center;
   border-radius: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #79070b8a;
+}
+
+tr:nth-child(odd) {
+  background-color: #eeb90c8a;
 }
 
 /* IMAGE AND VIDEO SECTION */
