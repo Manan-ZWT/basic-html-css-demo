@@ -210,7 +210,7 @@ textarea::placeholder {
 
 input:hover,
 textarea:hover {
-  border: 1px solid #eeb90c;
+  border: 2px solid #eeb90c;
 }
 
 select {
@@ -228,7 +228,7 @@ select {
   margin-top: 1%;
 }
 select:hover {
-  border: 1px solid #eeb90c;
+  border: 2px solid #eeb90c;
 }
 
 option {
