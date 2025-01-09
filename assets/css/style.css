@@ -60,6 +60,7 @@ header a {
 
 header a:hover {
   color: #eeb90c;
+  transition-delay: 5ms;
 }
 
 /* WELCOME MESSAGE */
@@ -105,12 +106,12 @@ article {
 
 .listsmodule div {
   width: 44%;
-  /* background-color: #860404e5; */
   background-image: linear-gradient(
-    to top right,
+    to bottom right,
     #3a0303e5,
     #680606e5,
-    #9c0808e5
+    #9c0808e5,
+    #cc0c0ce5
   );
   padding: 2%;
   margin: 1%;
@@ -126,6 +127,7 @@ article {
 table {
   width: 95%;
   margin: 2%;
+  border-radius: 15px;
 }
 
 th {
@@ -142,14 +144,6 @@ tr {
   border-collapse: collapse;
   text-align: center;
   border-radius: 15px;
-}
-
-tr:nth-child(even) {
-  background-color: #79070b9a;
-}
-
-tr:nth-child(odd) {
-  background-color: #eeb90c9a;
 }
 
 /* IMAGE AND VIDEO SECTION */
@@ -411,18 +405,28 @@ footer img {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
   /* HEADER */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+  }
+
   header img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 
   header nav {
-    width: calc(98% - 40px);
+    width: 100%;
   }
 
-  header a {
-    font-size: 13px;
+  header ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 3px 0px;
   }
 }
