@@ -126,6 +126,7 @@ article {
 table {
   width: 95%;
   margin: 2%;
+  border-radius: 15px;
 }
 
 th {
@@ -142,14 +143,6 @@ tr {
   border-collapse: collapse;
   text-align: center;
   border-radius: 15px;
-}
-
-tr:nth-child(even) {
-  background-color: #79070b9a;
-}
-
-tr:nth-child(odd) {
-  background-color: #eeb90c9a;
 }
 
 /* IMAGE AND VIDEO SECTION */
