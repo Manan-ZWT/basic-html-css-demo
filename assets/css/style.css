@@ -404,18 +404,28 @@ footer img {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
   /* HEADER */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+  }
+
   header img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 
   header nav {
-    width: calc(98% - 40px);
+    width: 100%;
   }
 
-  header a {
-    font-size: 13px;
+  header ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 3px 0px;
   }
 }
