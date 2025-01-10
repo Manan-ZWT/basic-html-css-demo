@@ -435,7 +435,7 @@
       }
   }
 
-  @media (max-width: 5800px) {
+  @media (max-width: 580px) {
     .navbar-div ul {
       padding-left: -40px;
       padding-right: 10px;
