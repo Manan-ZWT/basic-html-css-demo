@@ -218,8 +218,8 @@
 }
 
 .card:hover {
-  border: 1px solid #099e71;
-  box-shadow: 2px 2px 3px rgb(204, 203, 203);
+  border-bottom: 1px solid #099e71;
+  box-shadow: 3px 3px 5px rgb(204, 203, 203);
   cursor: pointer;
 }
  .card:hover .ecllipse{
@@ -281,4 +281,5 @@
 
 .footer-content img:hover {
   cursor: pointer;
+  filter: saturate(800%);
 }
