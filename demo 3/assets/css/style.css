@@ -153,7 +153,7 @@
 }
 
 .section1-button:hover {
-  color: black;
+  color: white;
   background-color: #099e71;
 }
 
@@ -297,7 +297,6 @@
   filter: saturate(800%);
 }
 
-
 @media screen and (max-width: 3000px) {
   .section2-content {
     width: 40%;
@@ -405,6 +404,12 @@
     width: 90%;
   }
 
+  .section2-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card-holder {
     width: 90%;
     justify-content: space-around;
@@ -416,10 +421,19 @@
 }
 
 @media screen and (max-width: 900px) {
+  .logo-div{
+    width: 100%;
+  }
+
+  .navbar-div{
+    width: 100%;
+  }
+  
   .navbar-div ul {
-    justify-content: flex-start;
+    width: 100%;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-right: 7px;
+    padding: 5px;
   }
   .video-div {
     display: flex;
@@ -448,6 +462,22 @@
   }
 }
 
+
+@media screen and (max-width: 660px) {
+  .navbar-div{
+    justify-content: center;
+  }
+
+  .navbar-div ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar-div ul li{
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .heading-main {
     padding: 10px;
@@ -461,18 +491,19 @@
     line-height: normal;
   }
   .ecllipse {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 50px;
   }
-  .ecllipse img{
-    width: 70%;
+  .ecllipse img {
+    width: 30px;
+    height: 30px;
   }
-  
+
   .footer-menu-content {
     width: 70%;
     justify-content: flex-start;
   }
-  
+
   .footer-menu {
     font-size: 16px;
   }
@@ -481,13 +512,16 @@
     justify-content: center;
     padding: 0;
   }
-  
+
   .footer-content img {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 350px) {
+  .navbar-div ul li{
+    font-size: 14px;
+  }
   .heading-main h1 {
     font-size: 20px;
   }
@@ -502,21 +536,27 @@
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .footer-menu-content {
-    width: 90%;
+    width: 100%;
+    display: flex;
     justify-content: center;
   }
-  
+
   .footer-menu {
-    font-size: 16px;
+    font-size: 14px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .footer-content {
     width: 90%;
     justify-content: center;
     padding: 0;
   }
-  
+
   .footer-content img {
     width: 60%;
   }
