@@ -80,7 +80,7 @@ body{
 }
 
 .card{
-    width: 33.33%;
+    width: calc((90% -45px)/3);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
