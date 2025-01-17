@@ -79,7 +79,7 @@ body{
 }
 
 .card{
-    width: 30%;
+    width: 33.33%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
