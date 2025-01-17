@@ -1,0 +1,12 @@
+.title-heading{
+    width: fit-content;
+    color: $seconday-color;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    border-bottom: 2px solid $primary-color;
+    margin-bottom: 15px;
+}

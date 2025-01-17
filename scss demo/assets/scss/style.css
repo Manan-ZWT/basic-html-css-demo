@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*COLORS*/
+/*FONT*/
+body {
+  font-family: "Albert Sans", serif;
+  color: rgb(0, 0, 0);
+}
+
+.header-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(252, 187, 20);
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  padding: 0 20px;
+}
+.header-div img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.header-div nav {
+  width: calc(100% - 120px);
+  height: 70px;
+}
+.header-div nav ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: -40px;
+}
+.header-div nav ul li {
+  display: flex;
+  height: 100%;
+  padding: 0 15px;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  transition-delay: 0.9ms;
+}
+.header-div nav ul li:hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+.header-div nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.title-heading {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  border-bottom: 2px solid rgb(252, 187, 20);
+  margin-bottom: 15px;
+}
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 25px;
+}
+.hero-section img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero-section .hero-section-message {
+  width: 700px;
+  top: 50%;
+  left: 22%;
+  position: absolute;
+  background-color: rgba(29, 28, 27, 0.76);
+  padding: 18px;
+}
+.hero-section .hero-section-message h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.breaker {
+  width: 70px;
+  height: 5px;
+  background-color: rgb(252, 187, 20);
+  margin-bottom: 25px;
+}
+
+.btn {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn.primary {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.btn.primary:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+.btn.secondary {
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 187, 20);
+}
+.btn.secondary:hover {
+  color: rgb(252, 187, 20);
+  background-color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.cardholder {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-self: flex-start;
+  padding: 20px;
+  border-bottom: 3px solid rgb(252, 187, 20);
+}
+.half-card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(252, 187, 20);
+}
+.half-card .card-title {
+  color: rgb(252, 187, 20);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.half-card .card-description {
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.quad-cardholder {
+  width: 50%;
+  display: grid;
+  align-content: stretch;
+  align-self: flex-start;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 45%));
+  gap: 25px;
+  padding: 20px;
+}
+.quad-cardholder .card {
+  border-bottom: 3px solid rgb(252, 187, 20);
+}
+.quad-cardholder .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(252, 187, 20);
+}
+.quad-cardholder .card .card-title {
+  color: rgb(252, 187, 20);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.quad-cardholder .card .small-card-description {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

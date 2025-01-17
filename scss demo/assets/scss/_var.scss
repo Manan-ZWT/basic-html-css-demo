@@ -1,0 +1,13 @@
+
+/*COLORS*/
+$primary-color: rgb(252, 187, 20);
+$seconday-color: rgb(0, 0, 0);
+
+
+/*FONT*/
+$font-family:"Albert Sans", serif;
+
+body{
+    font-family: $font-family;
+    color: $seconday-color;
+}

@@ -1,0 +1,36 @@
+%btn{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none
+}
+
+.btn{
+    @extend %btn;
+    &.primary{
+        color: $seconday-color;
+        background-color: white;
+
+        &:hover{
+            color: white;
+            background-color:$seconday-color ;
+            text-decoration: underline;
+        }
+    }
+
+    &.secondary{
+        color: $seconday-color;
+        background-color: $primary-color;
+
+        &:hover{
+            color: $primary-color;
+            background-color: $seconday-color;
+            text-decoration: underline;
+        }
+    }
+}
