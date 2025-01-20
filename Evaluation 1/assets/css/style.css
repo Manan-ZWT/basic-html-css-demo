@@ -469,14 +469,23 @@ header {
   justify-self: flex-start;
 }
 
-/* TABLE HEADING COLOR */
-.table-div table th {
-  color: var(--table-title-color);
+.table-div ul{
+  list-style-type: none;
+  margin-left: -40px;
 }
 
-/* TABLE DATA COLOR */
-.table-div table td {
+/* LIST HEADING COLOR */
+.table-div ul li .list-header{
+  color: var(--table-title-color);
+  font-weight: 600;
+  text-decoration: none;
+  cursor:default;
+}
+
+/* LIST DATA COLOR */
+.table-div ul li a {
   color: var(--heading_and_menu_color);
+  text-decoration: none;
 }
 
 /* LOGO DIV */
@@ -781,7 +790,8 @@ header {
     .footer-div .list-div {
         gap: 10px;
       }
-      .table-div table{
+      .table-div ul{
         font-size: 11px;
+        margin-left: -40px;
       }      
 }
