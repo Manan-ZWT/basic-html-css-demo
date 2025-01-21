@@ -16,7 +16,7 @@
   --form-input-border: #bac3d0;
   --form-placeholder-color: #a6b1bf;
   --table-title-color: #6d758f;
-  --copyright-border-color: #E1E4ED;
+  --copyright-border-color: #e1e4ed;
 }
 
 /* WRAPPER DIV */
@@ -469,17 +469,17 @@ header {
   justify-self: flex-start;
 }
 
-.table-div ul{
+.table-div ul {
   list-style-type: none;
   margin-left: -40px;
 }
 
 /* LIST HEADING COLOR */
-.table-div ul li .list-header{
+.table-div ul li .list-header {
   color: var(--table-title-color);
   font-weight: 600;
   text-decoration: none;
-  cursor:default;
+  cursor: default;
 }
 
 /* LIST DATA COLOR */
@@ -506,17 +506,17 @@ header {
   cursor: pointer;
 }
 
-.copyright{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: var(--body_text_color);
-    border-top: 1px solid var(--copyright-border-color);
-    margin-top: 30px;
+.copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--body_text_color);
+  border-top: 1px solid var(--copyright-border-color);
+  margin-top: 30px;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -563,6 +563,10 @@ header {
     margin-right: 0px;
   }
 
+  .hero-content-div .get-in-touch-button:hover {
+    padding: 9px 16px;
+  }
+
   .hero-content-div .learn-more-button {
     font-size: 14px;
     padding: 9px 16px;
@@ -570,10 +574,7 @@ header {
     margin-left: auto;
   }
   .hero-content-div:hover .learn-more-button:hover {
-    font-size: 14px;
     padding: 9px 16px;
-    border-radius: 8px;
-    margin-left: auto;
   }
 
   /* ADJUSTING CARDS */
@@ -678,15 +679,16 @@ header {
   .nav-div nav ul {
     display: none;
     list-style: none;
-    width: 100%;
+    width: 100%; 
     flex-direction: column;
     justify-content: center;
-    background-color: var(--body_background_color);
-    border: 1px solid var(--menu_hover_color);
-    border-radius: 15px;
+    background-color: var(--menu_hover_color);
+    border: 1px solid var(--heading_and_menu_color);
+    border-radius: 0px;
     position: absolute;
     top: 80px;
     right: 0;
+    padding: 0 0 0 0;
     z-index: 1;
   }
 
@@ -696,16 +698,24 @@ header {
 
   .hamburger-menu-toggle:checked ~ ul {
     display: flex;
+    justify-content: center;
   }
 
   .nav-div nav ul li {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 10px 0;
   }
 
   .nav-div nav ul li a {
     padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: var(--body_background_color);
   }
 
   /* ADJUSTING HERO BANNER*/
@@ -782,16 +792,16 @@ header {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* 500p px */
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   /* ADJUSTING FOOTER SECTION */
-    .footer-div {
-        padding: 20px 10px;
-      }
-    .footer-div .list-div {
-        gap: 10px;
-      }
-      .table-div ul{
-        font-size: 11px;
-        margin-left: -40px;
-      }      
+  .footer-div {
+    padding: 20px 10px;
+  }
+  .footer-div .list-div {
+    gap: 10px;
+  }
+  .table-div ul {
+    font-size: 11px;
+    margin-left: -40px;
+  }
 }
